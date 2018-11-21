@@ -16,6 +16,7 @@ nav a {
     color: white;
     display: block;
     padding: 10px;
+    margin-right: 10px;
 }
 
 nav a:hover{
@@ -30,15 +31,17 @@ nav ul {
 .container {
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
 }
 
 .gallery {
     width: 100%;
     height: 500px;
-    background: black;
-    display: inline-block;
+    background-image: url(img/5_5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .element {
     display: inline-block;
