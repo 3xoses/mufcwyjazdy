@@ -1,0 +1,69 @@
+.menu {
+    width: 100%;
+    background: rgb(199, 22, 34);
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    height: 500px;
+    background: black;
+    display: inline-block;
+}
+.element {
+    display: inline-block;
+    width: 441px;;
+    height: 400px;
+    font-family:'Poppins';
+    margin-top: 50px;
+}
+
+.element img {
+    margin-left: 90px;
+}
+
+.element article {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 16px; 
+}
+
+.element article a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wojtek img, .marcin img, .filip img {
+    margin-left: 100px;
+}
