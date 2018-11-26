@@ -22,6 +22,7 @@ nav a {
 
 nav a:hover{
     color: black;
+    text-decoration: none;
 }
 
 nav ul {
@@ -80,4 +81,22 @@ nav ul li img {
 
 .form-row {
     margin-left: 220px;
+}
+
+.send-button {
+    border: 1px solid rgb(199, 22, 34);
+    background-color: rgb(199, 22, 34);
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.send-button:hover {
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
 }
