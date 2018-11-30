@@ -61,6 +61,14 @@ nav ul li img {
     opacity: 1;
 }
 
+.col-sm{
+    opacity: 0;
+    transition: 2s;
+}
+.col-sm.show {
+    opacity: 1;
+}
+
 .section {
     font-size: 30px;
     font-weight: bold;
