@@ -53,9 +53,25 @@ nav ul li img {
     margin: 0 auto;
 }
 
+.card{
+    opacity: 0;
+    transition: 3s;
+}
+.card.show {
+    opacity: 1;
+}
+
 .section {
     font-size: 30px;
     text-align: center;    
+}
+
+.col-sm {
+    background: rgb(199, 22, 34);
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    text-align: center;
 }
 
 .form-row {
