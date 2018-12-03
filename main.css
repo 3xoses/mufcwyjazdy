@@ -47,6 +47,7 @@ nav ul li img {
 
 .card-text {
     font-size: 15px;
+    text-align: justify;
 }
 .card-img-top {
     max-height: 150px;
@@ -59,6 +60,7 @@ nav ul li img {
 }
 .card.show {
     opacity: 1;
+    margin: 0 auto;
 }
 
 .col-sm{
@@ -77,11 +79,8 @@ nav ul li img {
 }
 
 .col-sm {
-    background: rgb(199, 22, 34);
-    width: 300px;
-    height: 300px;
-    margin: 5px;
     text-align: center;
+    margin-top: 40px;
 }
 
 .form-row {
@@ -99,11 +98,21 @@ nav ul li img {
     color: rgb(255, 255, 255);
 }
 
-.row {
-    margin-left: 10px;
-    margin-right: none;
-    border: none;
-}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    line-height: 100px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    margin: 0 auto;
+  }
+
+  article {
+      margin-top: 20px;
+  }
 
 .form-row {
     margin-left: 220px;
