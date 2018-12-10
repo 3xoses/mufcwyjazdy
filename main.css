@@ -41,6 +41,11 @@ nav ul li img {
     font-family: 'Poppins';
     margin: 0 auto;
 }
+
+.container p {
+    margin-top: 50px;
+    text-align: justify;
+}
 .card-title {
     font-size: 20px;
 }
