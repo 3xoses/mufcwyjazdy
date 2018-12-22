@@ -104,19 +104,29 @@ nav ul {
   }
 
   .foot {
-      background: rgb(199, 22, 34);
-      margin-top: 200px;
-      height: 40px;
+    background: rgb(199, 22, 34);
+    margin-top: 200px;
+    height: 40px;
   }
   .foot-icons {
     display: flex;
     justify-content: center;
   }
   .foot-icons img {
-      width: 30px;
-      height: 30px;
-      margin:5px;
+    width: 30px;
+    height: 30px;
+    margin:5px;
   }
+  .foot-icons2 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(199, 22, 34);
+  }
+  .foot-icons2 a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    text-align: center;
+ }
   .circles {
     width: 50px;
     height: 50px;
@@ -136,17 +146,16 @@ nav ul {
     font-size: 35px;
   }
 
-  .foot-icons2 {
-      background: rgb(199, 22, 34);
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-  }
+span
+{
+display: none;
+}
 
-  .foot-icons2 a {
-      text-decoration: none;
-      color: rgb(250, 250, 250);
-  }
+div:hover span
+{
+margin: 15px 0;
+display: block;
+}
 
 @media only screen and (max-width: 375px ) {
 nav ul {
