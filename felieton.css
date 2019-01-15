@@ -1,0 +1,22 @@
+.container-felieton {
+    font-family: 'Poppins';
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 800px;
+    background: rgb(250, 250, 250);
+    opacity: 0.8;
+}
+
+body {
+    background: url(img/Ole.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+p {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
