@@ -119,7 +119,11 @@ nav ul {
 
   .circles-text {
     color: rgb(250, 250, 250);
-    font-size: 35px;
+    font-size: 35px;;
+  }
+
+  .circles a:hover {
+      text-decoration: none;
   }
 
   @media only screen and (max-width: 375px ) {
